@@ -59,7 +59,6 @@ function render_template(template, template_vars) {
     return template;
 }
 
-// TODO: complete
 function validate_doi_format(doi) {
     var re = new RegExp("10[.][0-9]{4,}(?:[.][0-9]+)*/(?:(?![\"&\\'<>])\\S)+");
     if (!re.test(doi))
@@ -67,7 +66,6 @@ function validate_doi_format(doi) {
 
     return 'valid';
 }
-
 
 function get_template_vars_from_doi(doi) {
     var datacite_uri_stem = 'https://api.datacite.org/works/';

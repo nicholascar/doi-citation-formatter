@@ -1,4 +1,4 @@
-# DOI Citation Getter
+# DOI Citation Formatter
 
 A tiny JavaScript script to get and format an APA-stype citation from either a CrossRef or a DataCite DOI, using the CrossRef & DataCite APIs.
 
